@@ -1,12 +1,12 @@
 # asm-translator
-### Программа, преобразующая машинный код в ассемблер
+### program that converts elf-file into assembly code of the Risk V architecture
 
-Запускать файл [main](https://github.com/ramipru/asm-translator/blob/main/main.py). 
+###Code [main](https://github.com/ramipru/asm-translator/blob/main/main.py). 
 
-  Тесты:
+  ###Tests
   1. [test1.elf](https://github.com/ramipru/asm-translator/blob/main/test1.elf);
   2. [test2.elf](https://github.com/ramipru/asm-translator/blob/main/test2.elf)
 
-  Результаты работы на тестовых файлах:
+  ###Results
   1. [test.txt](https://github.com/ramipru/asm-translator/blob/main/test1.txt);
   2. [test2.txt](https://github.com/ramipru/asm-translator/blob/main/test2.txt);
