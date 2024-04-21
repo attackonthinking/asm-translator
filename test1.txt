@@ -1,0 +1,405 @@
+Symbol Value              Size Type     Bind     Vis       Index Name
+[   0] 0x0                   0 NOTYPE   LOCAL    DEFAULT   UNDEF 
+[   1] 0x10074               0 SECTION  LOCAL    DEFAULT       1 
+[   2] 0x115CC               0 SECTION  LOCAL    DEFAULT       2 
+[   3] 0x115D0               0 SECTION  LOCAL    DEFAULT       3 
+[   4] 0x115D8               0 SECTION  LOCAL    DEFAULT       4 
+[   5] 0x115E0               0 SECTION  LOCAL    DEFAULT       5 
+[   6] 0x11A08               0 SECTION  LOCAL    DEFAULT       6 
+[   7] 0x11A14               0 SECTION  LOCAL    DEFAULT       7 
+[   8] 0x0                   0 SECTION  LOCAL    DEFAULT       8 
+[   9] 0x0                   0 SECTION  LOCAL    DEFAULT       9 
+[  10] 0x0                   0 FILE     LOCAL    DEFAULT     ABS __call_atexit.c
+[  11] 0x10074              24 FUNC     LOCAL    DEFAULT       1 register_fini
+[  12] 0x0                   0 FILE     LOCAL    DEFAULT     ABS crtstuff.c
+[  13] 0x115CC               0 OBJECT   LOCAL    DEFAULT       2 
+[  14] 0x100D8               0 FUNC     LOCAL    DEFAULT       1 __do_global_dtors_aux
+[  15] 0x11A14               1 OBJECT   LOCAL    DEFAULT       7 completed.1
+[  16] 0x115D8               0 OBJECT   LOCAL    DEFAULT       4 __do_global_dtors_aux_fini_array_entry
+[  17] 0x10124               0 FUNC     LOCAL    DEFAULT       1 frame_dummy
+[  18] 0x11A18              24 OBJECT   LOCAL    DEFAULT       7 object.0
+[  19] 0x115D4               0 OBJECT   LOCAL    DEFAULT       3 __frame_dummy_init_array_entry
+[  20] 0x0                   0 FILE     LOCAL    DEFAULT     ABS test.c
+[  21] 0x0                   0 FILE     LOCAL    DEFAULT     ABS exit.c
+[  22] 0x0                   0 FILE     LOCAL    DEFAULT     ABS impure.c
+[  23] 0x115E0            1064 OBJECT   LOCAL    DEFAULT       5 impure_data
+[  24] 0x0                   0 FILE     LOCAL    DEFAULT     ABS init.c
+[  25] 0x0                   0 FILE     LOCAL    DEFAULT     ABS atexit.c
+[  26] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fini.c
+[  27] 0x0                   0 FILE     LOCAL    DEFAULT     ABS __atexit.c
+[  28] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_exit.c
+[  29] 0x0                   0 FILE     LOCAL    DEFAULT     ABS errno.c
+[  30] 0x0                   0 FILE     LOCAL    DEFAULT     ABS crtstuff.c
+[  31] 0x115CC               0 OBJECT   LOCAL    DEFAULT       2 __FRAME_END__
+[  32] 0x0                   0 FILE     LOCAL    DEFAULT     ABS 
+[  33] 0x115DC               0 NOTYPE   LOCAL    DEFAULT       4 __fini_array_end
+[  34] 0x115D8               0 NOTYPE   LOCAL    DEFAULT       4 __fini_array_start
+[  35] 0x115D8               0 NOTYPE   LOCAL    DEFAULT       3 __init_array_end
+[  36] 0x115D0               0 NOTYPE   LOCAL    DEFAULT       3 __preinit_array_end
+[  37] 0x115D0               0 NOTYPE   LOCAL    DEFAULT       3 __init_array_start
+[  38] 0x115D0               0 NOTYPE   LOCAL    DEFAULT       3 __preinit_array_start
+[  39] 0x11DE0               0 NOTYPE   GLOBAL   DEFAULT     ABS __global_pointer$
+[  40] 0x105C4               8 FUNC     GLOBAL   DEFAULT       1 __errno
+[  41] 0x11A08               0 NOTYPE   GLOBAL   DEFAULT       6 __SDATA_BEGIN__
+[  42] 0x11A0C               0 OBJECT   GLOBAL   HIDDEN        6 __dso_handle
+[  43] 0x11A08               4 OBJECT   GLOBAL   DEFAULT       6 _global_impure_ptr
+[  44] 0x101E0             156 FUNC     GLOBAL   DEFAULT       1 __libc_init_array
+[  45] 0x1048C              92 FUNC     GLOBAL   DEFAULT       1 __libc_fini_array
+[  46] 0x10358             288 FUNC     GLOBAL   DEFAULT       1 __call_exitprocs
+[  47] 0x1008C              76 FUNC     GLOBAL   DEFAULT       1 _start
+[  48] 0x104E8             152 FUNC     GLOBAL   DEFAULT       1 __register_exitproc
+[  49] 0x11A30               0 NOTYPE   GLOBAL   DEFAULT       7 __BSS_END__
+[  50] 0x11A14               0 NOTYPE   GLOBAL   DEFAULT       7 __bss_start
+[  51] 0x1027C             220 FUNC     GLOBAL   DEFAULT       1 memset
+[  52] 0x10144             108 FUNC     GLOBAL   DEFAULT       1 main
+[  53] 0x10478              20 FUNC     GLOBAL   DEFAULT       1 atexit
+[  54] 0x11A10               4 OBJECT   GLOBAL   DEFAULT       6 _impure_ptr
+[  55] 0x115E0               0 NOTYPE   GLOBAL   DEFAULT       5 __DATA_BEGIN__
+[  56] 0x11A14               0 NOTYPE   GLOBAL   DEFAULT       6 _edata
+[  57] 0x11A30               0 NOTYPE   GLOBAL   DEFAULT       7 _end
+[  58] 0x101B0              48 FUNC     GLOBAL   DEFAULT       1 exit
+[  59] 0x10580              68 FUNC     GLOBAL   DEFAULT       1 _exit
+
+
+ADDI a5 zero
+BEQ a6 a5 zero
+LUI a0
+ADDI a0 a0
+JAL zero
+JALR zero ra
+AUIPC gp
+ADDI gp gp
+ADDI a0 gp
+ADDI a2 gp
+SUB a2 a2 a0
+ADDI a1 zero
+JAL ra
+AUIPC a0
+ADDI a0 a0
+BEQ a6 a0 zero
+AUIPC a0
+ADDI a0 a0
+JAL ra
+JAL ra
+LW a0 sp
+ADDI a1 sp
+ADDI a2 zero
+JAL ra
+JAL zero
+LBU a4 gp
+BNE tp a4 zero
+ADDI sp sp
+SW
+ADDI s0 a5
+SW
+ADDI a5 zero
+BEQ s4 a5 zero
+LUI a0
+ADDI a0 a0
+AUIPC ra
+JALR ra zero
+ADDI a5 zero
+LW ra sp
+SB
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+JALR zero ra
+ADDI a5 zero
+BEQ s8 a5 zero
+LUI a0
+ADDI a1 gp
+ADDI a0 a0
+AUIPC t1
+JALR zero zero
+JALR zero ra
+ADDI sp sp
+SW
+ADDI s0 sp
+ADDI a5 zero
+SW
+ADDI a5 zero
+SW
+SW
+SW
+JAL zero
+LW a4 s0
+LW a5 s0
+ADD a5 a4 a5
+SW
+LW a5 s0
+ADDI a5 a5
+SW
+LW a4 s0
+LW a5 s0
+ADD a5 a4 a5
+LW a4 s0
+BLT s5 a4 a5
+ADDI a5 zero
+ADDI a0 a5
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+ADDI a1 zero
+SW
+SW
+ADDI s0 a0
+JAL ra
+LW a0 gp
+LW a5 a0
+BEQ s0 a5 zero
+JALR ra a5
+ADDI a0 s0
+JAL ra
+ADDI sp sp
+SW
+SW
+LUI s0
+LUI s2
+ADDI a5 s0
+ADDI s2 s2
+SUB s2 s2 a5
+SW
+SW
+SRAI s2 s2 2
+BEQ zero s2 zero
+ADDI s0 s0
+ADDI s1 zero
+LW a5 s0
+ADDI s1 s1
+ADDI s0 s0
+JALR ra a5
+BNE a7 s2 s1
+LUI s0
+LUI s2
+ADDI a5 s0
+ADDI s2 s2
+SUB s2 s2 a5
+SRAI s2 s2 2
+BEQ zero s2 zero
+ADDI s0 s0
+ADDI s1 zero
+LW a5 s0
+ADDI s1 s1
+ADDI s0 s0
+JALR ra a5
+BNE a7 s2 s1
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+ADDI sp sp
+JALR zero ra
+ADDI t1 zero
+ADDI a4 a0
+BGEU t3 t1 a2
+ANDI a5 a4
+BNE zero a5 zero
+BNE tp a1 zero
+ANDI a3 a2
+ANDI a2 a2
+ADD a3 a3 a4
+SW
+SW
+SW
+SW
+ADDI a4 a4
+BLTU a3 a4 a3
+BNE s0 a2 zero
+JALR zero ra
+SUB a3 t1 a2
+SLLI a3 a3 2
+AUIPC t0
+ADD a3 a3 t0
+JALR zero a3
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+JALR zero ra
+ANDI a1 a1
+SLLI a3 a1 8
+OR a1 a1 a3
+SLLI a3 a1 -16
+OR a1 a1 a3
+JAL zero
+SLLI a3 a5 2
+AUIPC t0
+ADD a3 a3 t0
+ADDI t0 ra
+JALR ra a3
+ADDI ra t0
+ADDI a5 a5
+SUB a4 a4 a5
+ADD a2 a2 a5
+BGEU a7 t1 a2
+JAL zero
+ADDI sp sp
+SW
+LW s4 gp
+SW
+SW
+LW s2 s4
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+BEQ zero s2 zero
+ADDI s6 a0
+ADDI s7 a1
+ADDI s5 zero
+ADDI s3 zero
+LW s1 s2
+ADDI s0 s1
+BLT tp s0 zero
+SLLI s1 s1 2
+ADD s1 s2 s1
+BEQ s0 s7 zero
+LW a5 s1
+BEQ zero a5 s7
+ADDI s0 s0
+ADDI s1 s1
+BNE a3 s0 s3
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+LW s8 sp
+ADDI sp sp
+JALR zero ra
+LW a5 s2
+LW a3 s1
+ADDI a5 a5
+BEQ t3 a5 s0
+SW
+BEQ a7 a3 zero
+LW a5 s2
+SLL a4 s5 s0
+LW s8 s2
+AND a5 a4 a5
+BNE tp a5 zero
+JALR ra a3
+LW a4 s2
+LW a5 s4
+BNE s0 a4 s8
+BEQ s1 a5 s2
+BEQ a7 a5 zero
+ADDI s2 a5
+JAL zero
+LW a5 s2
+LW a1 s1
+AND a4 a4 a5
+BNE s8 a4 zero
+ADDI a0 s6
+JALR ra a3
+JAL zero
+SW
+JAL zero
+ADDI a0 a1
+JALR ra a3
+JAL zero
+ADDI a1 a0
+ADDI a3 zero
+ADDI a2 zero
+ADDI a0 zero
+JAL zero
+ADDI sp sp
+SW
+LUI a5
+LUI s0
+ADDI s0 s0
+ADDI a5 a5
+SUB a5 a5 s0
+SW
+SW
+SRAI s1 a5 2
+BEQ zero s1 zero
+ADDI a5 a5
+ADD s0 a5 s0
+LW a5 s0
+ADDI s1 s1
+ADDI s0 s0
+JALR ra a5
+BNE a7 s1 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a4 gp
+LW a5 a4
+BEQ s8 a5 zero
+LW a4 a5
+ADDI a6 zero
+BLT t3 a6 a4
+SLLI a6 a4 2
+BEQ a2 a0 zero
+ADD t1 a5 a6
+SW
+LW a7 a5
+ADDI a2 zero
+SLL a2 a2 a4
+OR a7 a7 a2
+SW
+SW
+ADDI a3 zero
+BEQ s0 a0 a3
+ADDI a4 a4
+SW
+ADD a5 a5 a6
+SW
+ADDI a0 zero
+JALR zero ra
+ADDI a5 a4
+SW
+JAL zero
+LW a3 a5
+ADDI a4 a4
+SW
+OR a2 a3 a2
+SW
+ADD a5 a5 a6
+SW
+ADDI a0 zero
+JALR zero ra
+ADDI a0 zero
+JALR zero ra
+ADDI a1 zero
+ADDI a2 zero
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+BLT s0 a0 zero
+JAL zero
+ADDI sp sp
+SW
+ADDI s0 a0
+SW
+SUB s0 zero s0
+JAL ra
+SW
+JAL zero
+LW a0 gp
+JALR zero ra

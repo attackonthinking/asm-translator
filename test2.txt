@@ -1,0 +1,3618 @@
+Symbol Value              Size Type     Bind     Vis       Index Name
+[   0] 0x0                   0 NOTYPE   LOCAL    DEFAULT   UNDEF 
+[   1] 0x10074               0 SECTION  LOCAL    DEFAULT       1 
+[   2] 0x13660               0 SECTION  LOCAL    DEFAULT       2 
+[   3] 0x14674               0 SECTION  LOCAL    DEFAULT       3 
+[   4] 0x14678               0 SECTION  LOCAL    DEFAULT       4 
+[   5] 0x14680               0 SECTION  LOCAL    DEFAULT       5 
+[   6] 0x14688               0 SECTION  LOCAL    DEFAULT       6 
+[   7] 0x14EB8               0 SECTION  LOCAL    DEFAULT       7 
+[   8] 0x14ECC               0 SECTION  LOCAL    DEFAULT       8 
+[   9] 0x14EE0               0 SECTION  LOCAL    DEFAULT       9 
+[  10] 0x0                   0 SECTION  LOCAL    DEFAULT      10 
+[  11] 0x0                   0 SECTION  LOCAL    DEFAULT      11 
+[  12] 0x0                   0 FILE     LOCAL    DEFAULT     ABS __call_atexit.c
+[  13] 0x10074              24 FUNC     LOCAL    DEFAULT       1 register_fini
+[  14] 0x0                   0 FILE     LOCAL    DEFAULT     ABS crtstuff.c
+[  15] 0x14674               0 OBJECT   LOCAL    DEFAULT       3 
+[  16] 0x100D8               0 FUNC     LOCAL    DEFAULT       1 __do_global_dtors_aux
+[  17] 0x14EE0               1 OBJECT   LOCAL    DEFAULT       9 completed.1
+[  18] 0x14680               0 OBJECT   LOCAL    DEFAULT       5 __do_global_dtors_aux_fini_array_entry
+[  19] 0x10124               0 FUNC     LOCAL    DEFAULT       1 frame_dummy
+[  20] 0x14EE4              24 OBJECT   LOCAL    DEFAULT       9 object.0
+[  21] 0x1467C               0 OBJECT   LOCAL    DEFAULT       4 __frame_dummy_init_array_entry
+[  22] 0x0                   0 FILE     LOCAL    DEFAULT     ABS test2.c
+[  23] 0x0                   0 FILE     LOCAL    DEFAULT     ABS exit.c
+[  24] 0x0                   0 FILE     LOCAL    DEFAULT     ABS impure.c
+[  25] 0x14688            1064 OBJECT   LOCAL    DEFAULT       6 impure_data
+[  26] 0x0                   0 FILE     LOCAL    DEFAULT     ABS init.c
+[  27] 0x0                   0 FILE     LOCAL    DEFAULT     ABS puts.c
+[  28] 0x0                   0 FILE     LOCAL    DEFAULT     ABS strlen.c
+[  29] 0x0                   0 FILE     LOCAL    DEFAULT     ABS atexit.c
+[  30] 0x0                   0 FILE     LOCAL    DEFAULT     ABS findfp.c
+[  31] 0x105B8               8 FUNC     LOCAL    DEFAULT       1 __fp_lock
+[  32] 0x105CC               8 FUNC     LOCAL    DEFAULT       1 __fp_unlock
+[  33] 0x105D4             388 FUNC     LOCAL    DEFAULT       1 __sinit.part.0
+[  34] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fini.c
+[  35] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fvwrite.c
+[  36] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fwalk.c
+[  37] 0x0                   0 FILE     LOCAL    DEFAULT     ABS mallocr.c
+[  38] 0x0                   0 FILE     LOCAL    DEFAULT     ABS memchr.c
+[  39] 0x0                   0 FILE     LOCAL    DEFAULT     ABS memcpy.c
+[  40] 0x0                   0 FILE     LOCAL    DEFAULT     ABS memmove-stub.c
+[  41] 0x0                   0 FILE     LOCAL    DEFAULT     ABS mlock.c
+[  42] 0x0                   0 FILE     LOCAL    DEFAULT     ABS mallocr.c
+[  43] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sbrkr.c
+[  44] 0x0                   0 FILE     LOCAL    DEFAULT     ABS stdio.c
+[  45] 0x0                   0 FILE     LOCAL    DEFAULT     ABS writer.c
+[  46] 0x0                   0 FILE     LOCAL    DEFAULT     ABS wsetup.c
+[  47] 0x0                   0 FILE     LOCAL    DEFAULT     ABS __atexit.c
+[  48] 0x0                   0 FILE     LOCAL    DEFAULT     ABS closer.c
+[  49] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fclose.c
+[  50] 0x12428             192 FUNC     LOCAL    DEFAULT       1 _fclose_r.part.0
+[  51] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fflush.c
+[  52] 0x0                   0 FILE     LOCAL    DEFAULT     ABS mallocr.c
+[  53] 0x0                   0 FILE     LOCAL    DEFAULT     ABS lseekr.c
+[  54] 0x0                   0 FILE     LOCAL    DEFAULT     ABS makebuf.c
+[  55] 0x0                   0 FILE     LOCAL    DEFAULT     ABS readr.c
+[  56] 0x0                   0 FILE     LOCAL    DEFAULT     ABS reent.c
+[  57] 0x0                   0 FILE     LOCAL    DEFAULT     ABS fstatr.c
+[  58] 0x0                   0 FILE     LOCAL    DEFAULT     ABS isattyr.c
+[  59] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_close.c
+[  60] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_exit.c
+[  61] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_fstat.c
+[  62] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_isatty.c
+[  63] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_lseek.c
+[  64] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_read.c
+[  65] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_sbrk.c
+[  66] 0x14EDC               4 OBJECT   LOCAL    DEFAULT       8 heap_end.0
+[  67] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_write.c
+[  68] 0x0                   0 FILE     LOCAL    DEFAULT     ABS sys_conv_stat.c
+[  69] 0x0                   0 FILE     LOCAL    DEFAULT     ABS errno.c
+[  70] 0x0                   0 FILE     LOCAL    DEFAULT     ABS crtstuff.c
+[  71] 0x14674               0 OBJECT   LOCAL    DEFAULT       3 __FRAME_END__
+[  72] 0x0                   0 FILE     LOCAL    DEFAULT     ABS 
+[  73] 0x14684               0 NOTYPE   LOCAL    DEFAULT       5 __fini_array_end
+[  74] 0x14680               0 NOTYPE   LOCAL    DEFAULT       5 __fini_array_start
+[  75] 0x14680               0 NOTYPE   LOCAL    DEFAULT       4 __init_array_end
+[  76] 0x14678               0 NOTYPE   LOCAL    DEFAULT       4 __preinit_array_end
+[  77] 0x14678               0 NOTYPE   LOCAL    DEFAULT       4 __init_array_start
+[  78] 0x14678               0 NOTYPE   LOCAL    DEFAULT       4 __preinit_array_start
+[  79] 0x13280              92 FUNC     GLOBAL   DEFAULT       1 _isatty_r
+[  80] 0x1306C             148 FUNC     GLOBAL   DEFAULT       1 cleanup_glue
+[  81] 0x10320             204 FUNC     GLOBAL   DEFAULT       1 _puts_r
+[  82] 0x12D3C             104 FUNC     GLOBAL   DEFAULT       1 _lseek_r
+[  83] 0x14E88               0 NOTYPE   GLOBAL   DEFAULT     ABS __global_pointer$
+[  84] 0x120F4             104 FUNC     GLOBAL   DEFAULT       1 __sseek
+[  85] 0x10908              16 FUNC     GLOBAL   DEFAULT       1 __sinit
+[  86] 0x10758             108 FUNC     GLOBAL   DEFAULT       1 __sfmoreglue
+[  87] 0x11A34               4 FUNC     GLOBAL   DEFAULT       1 __malloc_unlock
+[  88] 0x11910             288 FUNC     GLOBAL   DEFAULT       1 memmove
+[  89] 0x108F8              16 FUNC     GLOBAL   DEFAULT       1 _cleanup
+[  90] 0x13658               8 FUNC     GLOBAL   DEFAULT       1 __errno
+[  91] 0x135B4             164 FUNC     GLOBAL   DEFAULT       1 _conv_stat
+[  92] 0x1321C             100 FUNC     GLOBAL   DEFAULT       1 _fstat_r
+[  93] 0x14ED8               4 OBJECT   GLOBAL   DEFAULT       8 errno
+[  94] 0x12064               8 FUNC     GLOBAL   DEFAULT       1 __seofread
+[  95] 0x14EB8               0 NOTYPE   GLOBAL   DEFAULT       7 __SDATA_BEGIN__
+[  96] 0x117F4             284 FUNC     GLOBAL   DEFAULT       1 memcpy
+[  97] 0x105C0              12 FUNC     GLOBAL   DEFAULT       1 _cleanup_r
+[  98] 0x103EC              12 FUNC     GLOBAL   DEFAULT       1 puts
+[  99] 0x13378             112 FUNC     GLOBAL   DEFAULT       1 _fstat
+[ 100] 0x14ED4               4 OBJECT   GLOBAL   DEFAULT       8 __malloc_top_pad
+[ 101] 0x14EBC               0 OBJECT   GLOBAL   HIDDEN        7 __dso_handle
+[ 102] 0x109A4            1176 FUNC     GLOBAL   DEFAULT       1 __sfvwrite_r
+[ 103] 0x11FAC              92 FUNC     GLOBAL   DEFAULT       1 _sbrk_r
+[ 104] 0x13004             104 FUNC     GLOBAL   DEFAULT       1 _read_r
+[ 105] 0x124E8             112 FUNC     GLOBAL   DEFAULT       1 _fclose_r
+[ 106] 0x12890             124 FUNC     GLOBAL   DEFAULT       1 fflush
+[ 107] 0x14ED0               4 OBJECT   GLOBAL   DEFAULT       8 __malloc_max_sbrked_mem
+[ 108] 0x133E8              64 FUNC     GLOBAL   DEFAULT       1 _isatty
+[ 109] 0x14EB8               4 OBJECT   GLOBAL   DEFAULT       7 _global_impure_ptr
+[ 110] 0x11A38            1396 FUNC     GLOBAL   DEFAULT       1 _realloc_r
+[ 111] 0x101A8             156 FUNC     GLOBAL   DEFAULT       1 __libc_init_array
+[ 112] 0x134C8             156 FUNC     GLOBAL   DEFAULT       1 _sbrk
+[ 113] 0x10928              16 FUNC     GLOBAL   DEFAULT       1 __fp_lock_all
+[ 114] 0x10948              92 FUNC     GLOBAL   DEFAULT       1 __libc_fini_array
+[ 115] 0x13100             284 FUNC     GLOBAL   DEFAULT       1 _reclaim_reent
+[ 116] 0x10918               4 FUNC     GLOBAL   DEFAULT       1 __sfp_lock_acquire
+[ 117] 0x1172C             200 FUNC     GLOBAL   DEFAULT       1 memchr
+[ 118] 0x12A3C             768 FUNC     GLOBAL   DEFAULT       1 _free_r
+[ 119] 0x10484             288 FUNC     GLOBAL   DEFAULT       1 __call_exitprocs
+[ 120] 0x14EC4               4 OBJECT   GLOBAL   DEFAULT       7 __malloc_sbrk_base
+[ 121] 0x1008C              76 FUNC     GLOBAL   DEFAULT       1 _start
+[ 122] 0x13428              80 FUNC     GLOBAL   DEFAULT       1 _lseek
+[ 123] 0x12334             152 FUNC     GLOBAL   DEFAULT       1 __register_exitproc
+[ 124] 0x14EFC              40 OBJECT   GLOBAL   DEFAULT       9 __malloc_current_mallinfo
+[ 125] 0x123CC              92 FUNC     GLOBAL   DEFAULT       1 _close_r
+[ 126] 0x121CC             360 FUNC     GLOBAL   DEFAULT       1 __swsetup_r
+[ 127] 0x107C4             308 FUNC     GLOBAL   DEFAULT       1 __sfp
+[ 128] 0x14F24               0 NOTYPE   GLOBAL   DEFAULT       9 __BSS_END__
+[ 129] 0x14AB0            1032 OBJECT   GLOBAL   DEFAULT       6 __malloc_av_
+[ 130] 0x10924               4 FUNC     GLOBAL   DEFAULT       1 __sinit_lock_release
+[ 131] 0x12008              92 FUNC     GLOBAL   DEFAULT       1 __sread
+[ 132] 0x11A30               4 FUNC     GLOBAL   DEFAULT       1 __malloc_lock
+[ 133] 0x12830              96 FUNC     GLOBAL   DEFAULT       1 _fflush_r
+[ 134] 0x14ECC               0 NOTYPE   GLOBAL   DEFAULT       8 __bss_start
+[ 135] 0x10244             220 FUNC     GLOBAL   DEFAULT       1 memset
+[ 136] 0x10144              52 FUNC     GLOBAL   DEFAULT       1 main
+[ 137] 0x14ECC               4 OBJECT   GLOBAL   DEFAULT       8 __malloc_max_total_mem
+[ 138] 0x1215C               8 FUNC     GLOBAL   DEFAULT       1 __sclose
+[ 139] 0x12558             116 FUNC     GLOBAL   DEFAULT       1 fclose
+[ 140] 0x10F94            1944 FUNC     GLOBAL   DEFAULT       1 _malloc_r
+[ 141] 0x10E3C             164 FUNC     GLOBAL   DEFAULT       1 _fwalk
+[ 142] 0x1290C             304 FUNC     GLOBAL   DEFAULT       1 _malloc_trim_r
+[ 143] 0x105A4              20 FUNC     GLOBAL   DEFAULT       1 atexit
+[ 144] 0x12164             104 FUNC     GLOBAL   DEFAULT       1 _write_r
+[ 145] 0x14EC0               4 OBJECT   GLOBAL   DEFAULT       7 _impure_ptr
+[ 146] 0x125CC             612 FUNC     GLOBAL   DEFAULT       1 __sflush_r
+[ 147] 0x10938              16 FUNC     GLOBAL   DEFAULT       1 __fp_unlock_all
+[ 148] 0x12F34             208 FUNC     GLOBAL   DEFAULT       1 __swhatbuf_r
+[ 149] 0x14688               0 NOTYPE   GLOBAL   DEFAULT       6 __DATA_BEGIN__
+[ 150] 0x13564              80 FUNC     GLOBAL   DEFAULT       1 _write
+[ 151] 0x14ECC               0 NOTYPE   GLOBAL   DEFAULT       7 _edata
+[ 152] 0x14F24               0 NOTYPE   GLOBAL   DEFAULT       9 _end
+[ 153] 0x1206C             136 FUNC     GLOBAL   DEFAULT       1 __swrite
+[ 154] 0x14EC8               4 OBJECT   GLOBAL   DEFAULT       7 __malloc_trim_threshold
+[ 155] 0x10178              48 FUNC     GLOBAL   DEFAULT       1 exit
+[ 156] 0x10EE0             180 FUNC     GLOBAL   DEFAULT       1 _fwalk_reent
+[ 157] 0x1091C               4 FUNC     GLOBAL   DEFAULT       1 __sfp_lock_release
+[ 158] 0x13478              80 FUNC     GLOBAL   DEFAULT       1 _read
+[ 159] 0x13334              68 FUNC     GLOBAL   DEFAULT       1 _exit
+[ 160] 0x12DA4             400 FUNC     GLOBAL   DEFAULT       1 __smakebuf_r
+[ 161] 0x103F8             140 FUNC     GLOBAL   DEFAULT       1 strlen
+[ 162] 0x132DC              88 FUNC     GLOBAL   DEFAULT       1 _close
+[ 163] 0x10920               4 FUNC     GLOBAL   DEFAULT       1 __sinit_lock_acquire
+
+
+ADDI a5 zero
+BEQ a6 a5 zero
+LUI a0
+ADDI a0 a0
+JAL zero
+JALR zero ra
+AUIPC gp
+ADDI gp gp
+ADDI a0 gp
+ADDI a2 gp
+SUB a2 a2 a0
+ADDI a1 zero
+JAL ra
+AUIPC a0
+ADDI a0 a0
+BEQ a6 a0 zero
+AUIPC a0
+ADDI a0 a0
+JAL ra
+JAL ra
+LW a0 sp
+ADDI a1 sp
+ADDI a2 zero
+JAL ra
+JAL zero
+LBU a4 gp
+BNE tp a4 zero
+ADDI sp sp
+SW
+ADDI s0 a5
+SW
+ADDI a5 zero
+BEQ s4 a5 zero
+LUI a0
+ADDI a0 a0
+AUIPC ra
+JALR ra zero
+ADDI a5 zero
+LW ra sp
+SB
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+JALR zero ra
+ADDI a5 zero
+BEQ s8 a5 zero
+LUI a0
+ADDI a1 gp
+ADDI a0 a0
+AUIPC t1
+JALR zero zero
+JALR zero ra
+ADDI sp sp
+SW
+SW
+ADDI s0 sp
+LUI a5
+ADDI a0 a5
+JAL ra
+ADDI a5 zero
+ADDI a0 a5
+LW ra sp
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+ADDI a1 zero
+SW
+SW
+ADDI s0 a0
+JAL ra
+LW a0 gp
+LW a5 a0
+BEQ s0 a5 zero
+JALR ra a5
+ADDI a0 s0
+JAL ra
+ADDI sp sp
+SW
+SW
+LUI s0
+LUI s2
+ADDI a5 s0
+ADDI s2 s2
+SUB s2 s2 a5
+SW
+SW
+SRAI s2 s2 2
+BEQ zero s2 zero
+ADDI s0 s0
+ADDI s1 zero
+LW a5 s0
+ADDI s1 s1
+ADDI s0 s0
+JALR ra a5
+BNE a7 s2 s1
+LUI s0
+LUI s2
+ADDI a5 s0
+ADDI s2 s2
+SUB s2 s2 a5
+SRAI s2 s2 2
+BEQ zero s2 zero
+ADDI s0 s0
+ADDI s1 zero
+LW a5 s0
+ADDI s1 s1
+ADDI s0 s0
+JALR ra a5
+BNE a7 s2 s1
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+ADDI sp sp
+JALR zero ra
+ADDI t1 zero
+ADDI a4 a0
+BGEU t3 t1 a2
+ANDI a5 a4
+BNE zero a5 zero
+BNE tp a1 zero
+ANDI a3 a2
+ANDI a2 a2
+ADD a3 a3 a4
+SW
+SW
+SW
+SW
+ADDI a4 a4
+BLTU a3 a4 a3
+BNE s0 a2 zero
+JALR zero ra
+SUB a3 t1 a2
+SLLI a3 a3 2
+AUIPC t0
+ADD a3 a3 t0
+JALR zero a3
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+JALR zero ra
+ANDI a1 a1
+SLLI a3 a1 8
+OR a1 a1 a3
+SLLI a3 a1 -16
+OR a1 a1 a3
+JAL zero
+SLLI a3 a5 2
+AUIPC t0
+ADD a3 a3 t0
+ADDI t0 ra
+JALR ra a3
+ADDI ra t0
+ADDI a5 a5
+SUB a4 a4 a5
+ADD a2 a2 a5
+BGEU a7 t1 a2
+JAL zero
+ADDI sp sp
+SW
+ADDI s0 a0
+ADDI a0 a1
+SW
+SW
+ADDI s1 a1
+JAL ra
+LUI a5
+ADDI a5 a5
+SW
+ADDI a5 zero
+SW
+LW a4 s0
+ADDI a5 sp
+ADDI a3 a0
+SW
+ADDI a5 zero
+SW
+SW
+SW
+SW
+LW a1 s0
+BEQ t3 a4 zero
+LH a5 a1
+SLLI a4 a5 -14
+BLT tp a4 zero
+LW a4 a1
+LUI a3
+OR a5 a5 a3
+LUI a3
+ADDI a3 a3
+AND a4 a4 a3
+SH
+SW
+ADDI a2 sp
+ADDI a0 s0
+JAL ra
+LW ra sp
+LW s0 sp
+SLTU a0 zero a0
+SUB a0 zero a0
+LW s1 sp
+ORI a0 a0
+ADDI sp sp
+JALR zero ra
+ADDI a0 s0
+SW
+JAL ra
+LW a1 sp
+JAL zero
+ADDI a1 a0
+LW a0 gp
+JAL zero
+ANDI a5 a0
+ADDI a4 a0
+BNE s8 a5 zero
+LUI a3
+ADDI a3 a3
+ADDI a1 zero
+LW a2 a4
+ADDI a4 a4
+AND a5 a2 a3
+ADD a5 a5 a3
+OR a5 a5 a2
+OR a5 a5 a3
+BEQ s1 a5 a1
+LBU a3 a4
+LBU a2 a4
+LBU a5 a4
+SUB a4 a4 a0
+BEQ zero a3 zero
+BEQ s4 a2 zero
+SLTU a0 zero a5
+ADD a0 a0 a4
+ADDI a0 a0
+JALR zero ra
+BEQ a7 a3 zero
+LBU a5 a4
+ADDI a4 a4
+ANDI a3 a4
+BNE a7 a5 zero
+SUB a4 a4 a0
+ADDI a0 a4
+JALR zero ra
+ADDI a0 a4
+JALR zero ra
+ADDI a0 a4
+JALR zero ra
+ADDI sp sp
+SW
+LW s4 gp
+SW
+SW
+LW s2 s4
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+BEQ zero s2 zero
+ADDI s6 a0
+ADDI s7 a1
+ADDI s5 zero
+ADDI s3 zero
+LW s1 s2
+ADDI s0 s1
+BLT tp s0 zero
+SLLI s1 s1 2
+ADD s1 s2 s1
+BEQ s0 s7 zero
+LW a5 s1
+BEQ zero a5 s7
+ADDI s0 s0
+ADDI s1 s1
+BNE a3 s0 s3
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+LW s8 sp
+ADDI sp sp
+JALR zero ra
+LW a5 s2
+LW a3 s1
+ADDI a5 a5
+BEQ t3 a5 s0
+SW
+BEQ a7 a3 zero
+LW a5 s2
+SLL a4 s5 s0
+LW s8 s2
+AND a5 a4 a5
+BNE tp a5 zero
+JALR ra a3
+LW a4 s2
+LW a5 s4
+BNE s0 a4 s8
+BEQ s1 a5 s2
+BEQ a7 a5 zero
+ADDI s2 a5
+JAL zero
+LW a5 s2
+LW a1 s1
+AND a4 a4 a5
+BNE s8 a4 zero
+ADDI a0 s6
+JALR ra a3
+JAL zero
+SW
+JAL zero
+ADDI a0 a1
+JALR ra a3
+JAL zero
+ADDI a1 a0
+ADDI a3 zero
+ADDI a2 zero
+ADDI a0 zero
+JAL zero
+ADDI a0 zero
+JALR zero ra
+LUI a1
+ADDI a1 a1
+JAL zero
+ADDI a0 zero
+JALR zero ra
+ADDI sp sp
+LUI a5
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+LW s0 a0
+ADDI a5 a5
+SW
+ADDI a4 a0
+ADDI a5 zero
+SW
+SW
+SW
+ADDI a5 zero
+ADDI s2 a0
+SW
+ADDI a2 zero
+ADDI a1 zero
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI a0 s0
+JAL ra
+LUI s6
+LW s1 s2
+LUI s5
+LUI s4
+LUI s3
+ADDI s6 s6
+ADDI s5 s5
+ADDI s4 s4
+ADDI s3 s3
+LUI a5
+SW
+SW
+SW
+SW
+SW
+ADDI a5 a5
+SW
+ADDI a2 zero
+ADDI a1 zero
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI a0 s1
+JAL ra
+LW s0 s2
+LUI a5
+SW
+SW
+SW
+SW
+SW
+ADDI a5 a5
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI a0 s0
+ADDI a2 zero
+ADDI a1 zero
+JAL ra
+LW ra sp
+SW
+SW
+SW
+SW
+SW
+LW s0 sp
+ADDI a5 zero
+SW
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+ADDI a2 zero
+ADDI s1 a1
+ADD s1 s1 a2
+SW
+ADDI s2 a1
+SW
+SW
+ADDI a1 s1
+JAL ra
+ADDI s0 a0
+BEQ zero a0 zero
+ADDI a0 a0
+SW
+SW
+SW
+ADDI a2 s1
+ADDI a1 zero
+JAL ra
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+LW s1 sp
+LW s2 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+LW s2 gp
+SW
+SW
+LW a5 s2
+SW
+SW
+SW
+ADDI s3 a0
+BEQ s4 a5 zero
+ADDI s2 s2
+ADDI s1 zero
+ADDI s4 zero
+LW a5 s2
+LW s0 s2
+ADDI a5 a5
+BGE a6 a5 zero
+JAL zero
+ADDI s0 s0
+BEQ t3 a5 s1
+LH a4 s0
+ADDI a5 a5
+BNE a7 a4 zero
+LUI a5
+ADDI a5 a5
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI a2 zero
+ADDI a1 zero
+ADDI a0 s0
+JAL ra
+SW
+SW
+SW
+SW
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+ADDI sp sp
+JALR zero ra
+LW s0 s2
+BEQ s8 s0 zero
+ADDI s2 s0
+JAL zero
+ADDI a0 s2
+JAL ra
+JAL zero
+ADDI a1 zero
+ADDI a0 s3
+JAL ra
+ADDI s0 a0
+BEQ a2 a0 zero
+ADDI a0 a0
+SW
+SW
+SW
+ADDI a2 zero
+ADDI a1 zero
+JAL ra
+SW
+ADDI s2 s0
+JAL zero
+SW
+ADDI a5 zero
+SW
+JAL zero
+LW a0 gp
+LUI a1
+ADDI a1 a1
+JAL zero
+LW a5 a0
+BEQ s0 a5 zero
+JALR zero ra
+JAL zero
+JALR zero ra
+JALR zero ra
+JALR zero ra
+JALR zero ra
+LW a0 gp
+LUI a1
+ADDI a1 a1
+JAL zero
+LW a0 gp
+LUI a1
+ADDI a1 a1
+JAL zero
+ADDI sp sp
+SW
+LUI a5
+LUI s0
+ADDI s0 s0
+ADDI a5 a5
+SUB a5 a5 s0
+SW
+SW
+SRAI s1 a5 2
+BEQ zero s1 zero
+ADDI a5 a5
+ADD s0 a5 s0
+LW a5 s0
+ADDI s1 s1
+ADDI s0 s0
+JALR ra a5
+BNE a7 s1 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 a2
+BEQ a6 a5 zero
+LHU a5 a1
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ANDI a4 a5
+ADDI s4 a2
+ADDI s5 a0
+ADDI s0 a1
+BEQ a2 a4 zero
+LW a4 a1
+BEQ tp a4 zero
+ANDI a4 a5
+LW s1 s4
+BEQ s8 a4 zero
+LW a5 s0
+LW a1 s0
+LUI s6
+ADDI s3 zero
+ADDI s2 zero
+XORI s6 s6
+ADDI a2 s3
+ADDI a0 s5
+BEQ tp s2 zero
+ADDI a3 s2
+BGEU s0 s6 s2
+ADDI a3 s6
+JALR ra a5
+BGE tp zero a0
+LW a5 s4
+ADD s3 s3 a0
+SUB s2 s2 a0
+SUB a0 a5 a0
+SW
+BEQ zero a0 zero
+LW a5 s0
+LW a1 s0
+ADDI a2 s3
+ADDI a0 s5
+BNE t0 s2 zero
+LW s3 s1
+LW s2 s1
+ADDI s1 s1
+JAL zero
+ADDI a1 s0
+ADDI a0 s5
+JAL ra
+BNE s0 a0 zero
+LHU a5 s0
+LW s1 s4
+ANDI a4 a5
+BNE a7 a4 zero
+ANDI a4 a5
+BNE a2 a4 zero
+LW s9 s0
+LW a0 s0
+LUI s6
+XORI s7 s6
+ADDI s8 zero
+ADDI s2 zero
+XORI s6 s6
+BEQ t3 s2 zero
+ANDI a4 a5
+BEQ a6 a4 zero
+ADDI s10 s9
+BLTU t3 s2 s9
+ANDI a4 a5
+BEQ s4 a4 zero
+LW s3 s0
+LW a1 s0
+ADDI a4 s2
+SLLI a3 s3 1
+ADD a3 a3 s3
+SRLI s3 a3 -1
+SUB s10 a0 a1
+ADD s3 s3 a3
+SRAI s3 s3 1
+ADD a4 a4 s10
+ADDI a2 s3
+BGEU a2 s3 a4
+ADDI s3 a4
+ADDI a2 a4
+ANDI a5 a5
+BEQ a2 a5 zero
+ADDI a1 a2
+ADDI a0 s5
+JAL ra
+ADDI s9 a0
+BEQ s4 a0 zero
+LW a1 s0
+ADDI a2 s10
+JAL ra
+LHU a5 s0
+ANDI a5 a5
+ORI a5 a5
+SH
+ADD a0 s9 s10
+SUB a5 s3 s10
+SW
+SW
+SW
+ADDI s9 s2
+SW
+ADDI s10 s2
+ADDI a2 s10
+ADDI a1 s8
+JAL ra
+LW a4 s0
+LW a5 s0
+ADDI s3 s2
+SUB s9 a4 s9
+ADD a5 a5 s10
+SW
+SW
+ADDI s2 zero
+LW a2 s4
+ADD s8 s8 s3
+SUB s3 a2 s3
+SW
+BEQ a2 s3 zero
+LW s9 s0
+LW a0 s0
+LHU a5 s0
+BNE a3 s2 zero
+LW s8 s1
+LW s2 s1
+ADDI s1 s1
+JAL zero
+ADDI s6 zero
+ADDI a0 zero
+ADDI s8 zero
+ADDI s3 zero
+BEQ zero s3 zero
+BEQ a2 a0 zero
+ADDI a5 s6
+ADDI s7 s3
+BGEU s0 a5 s3
+ADDI s7 a5
+LW a0 s0
+LW a5 s0
+LW a3 s0
+BGEU a6 a5 a0
+LW s2 s0
+ADD s2 a3 s2
+BLT zero s2 s7
+BLT s0 s7 a3
+LW a5 s0
+LW a1 s0
+ADDI a2 s8
+ADDI a0 s5
+JALR ra a5
+ADDI s2 a0
+BGE s4 zero a0
+SUB s6 s6 s2
+ADDI a0 zero
+BEQ s8 s6 zero
+LW a2 s4
+ADD s8 s8 s2
+SUB s3 s3 s2
+SUB s2 a2 s2
+SW
+BNE a3 s2 zero
+ADDI a0 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+LW s8 sp
+LW s9 sp
+LW s10 sp
+ADDI sp sp
+JALR zero ra
+ADDI a1 s0
+ADDI a0 s5
+JAL ra
+BEQ ra a0 zero
+LH a5 s0
+ORI a5 a5
+SH
+ADDI a0 zero
+JAL zero
+ADDI a0 zero
+JALR zero ra
+LW s3 s1
+LW s8 s1
+ADDI s1 s1
+BEQ s5 s3 zero
+ADDI a2 s3
+ADDI a1 zero
+ADDI a0 s8
+JAL ra
+BEQ s8 a0 zero
+ADDI a0 a0
+SUB s6 a0 s8
+JAL zero
+ADDI a1 s8
+ADDI a2 s2
+JAL ra
+LW a5 s0
+ADDI a1 s0
+ADDI a0 s5
+ADD a5 a5 s2
+SW
+JAL ra
+BEQ ra a0 zero
+JAL zero
+LW a5 s0
+BLTU tp a5 a0
+LW a5 s0
+BLTU t3 s2 a5
+ADDI a3 s2
+BGEU s0 s7 s2
+ADDI a3 s6
+DIV a3 a3 a5
+LW a4 s0
+LW a1 s0
+ADDI a2 s8
+ADDI a0 s5
+ADD a3 a3 a5
+JALR ra a4
+ADDI s3 a0
+BGE a3 zero a0
+SUB s2 s2 s3
+JAL zero
+ADDI s3 s9
+BGEU s0 s2 s9
+ADDI s3 s2
+ADDI a2 s3
+ADDI a1 s8
+JAL ra
+LW a5 s0
+LW a4 s0
+SUB a5 a5 s3
+ADD a4 a4 s3
+SW
+SW
+BNE s1 a5 zero
+ADDI a1 s0
+ADDI a0 s5
+JAL ra
+BNE ra a0 zero
+SUB s2 s2 s3
+JAL zero
+ADDI s9 s2
+ADDI s10 s2
+JAL zero
+ADDI a2 s7
+ADDI a1 s8
+JAL ra
+LW a4 s0
+LW a5 s0
+ADDI s2 s7
+SUB a4 a4 s7
+ADD a5 a5 s7
+SW
+SW
+JAL zero
+ADDI a0 s5
+JAL ra
+ADDI s9 a0
+BNE t4 a0 zero
+LW a1 s0
+ADDI a0 s5
+JAL ra
+LH a5 s0
+ADDI a4 zero
+SW
+ANDI a5 a5
+JAL zero
+ADDI a5 s3
+ADDI s6 a5
+JAL zero
+ADDI a4 zero
+LH a5 s0
+SW
+JAL zero
+ADDI a0 zero
+JAL zero
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI s6 a1
+ADDI s5 a0
+ADDI s4 zero
+ADDI s3 zero
+ADDI s2 zero
+LW s1 s5
+LW s0 s5
+ADDI s1 s1
+BLT a2 s1 zero
+LHU a5 s0
+ADDI s1 s1
+BGEU s8 s3 a5
+LH a5 s0
+ADDI a0 s0
+BEQ a2 a5 s2
+JALR ra s6
+OR s4 s4 a0
+ADDI s0 s0
+BNE t4 s1 s2
+LW s5 s5
+BNE t0 s5 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s5 sp
+LW s6 sp
+ADDI a0 s4
+LW s4 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI s5 a0
+ADDI s7 a1
+ADDI s6 a0
+ADDI s4 zero
+ADDI s3 zero
+ADDI s2 zero
+LW s1 s6
+LW s0 s6
+ADDI s1 s1
+BLT a6 s1 zero
+LHU a5 s0
+ADDI s1 s1
+BGEU t3 s3 a5
+LH a5 s0
+ADDI a1 s0
+ADDI a0 s5
+BEQ a2 a5 s2
+JALR ra s7
+OR s4 s4 a0
+ADDI s0 s0
+BNE s9 s1 s2
+LW s6 s6
+BNE ra s6 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+ADDI a0 s4
+LW s4 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI a5 a1
+ADDI a4 zero
+ADDI s3 a0
+BLTU s0 a4 a5
+ADDI a5 zero
+BLTU tp a5 a1
+JAL ra
+ADDI s1 zero
+ADDI a5 zero
+ADDI a2 zero
+ADDI s2 gp
+ADD a5 s2 a5
+LW s0 a5
+ADDI a4 a5
+BEQ a6 s0 a4
+LW a5 s0
+LW a3 s0
+LW a2 s0
+ANDI a5 a5
+ADD a5 s0 a5
+LW a4 a5
+SW
+SW
+ORI a4 a4
+ADDI a0 s3
+SW
+JAL ra
+ADDI a0 s0
+JAL zero
+ANDI s1 a5
+BLT zero a5 zero
+BLTU t3 s1 a1
+JAL ra
+ADDI a5 zero
+BGEU s4 a5 s1
+SRLI a5 s1 9
+BEQ s0 a5 zero
+ADDI a4 zero
+BLTU zero a4 a5
+SRLI a5 s1 6
+ADDI a2 a5
+ADDI a0 a5
+SLLI a3 a2 3
+ADDI s2 gp
+ADD a3 s2 a3
+LW s0 a3
+ADDI a3 a3
+BEQ a2 a3 s0
+ADDI a1 zero
+JAL zero
+BGE tp a4 zero
+LW s0 s0
+BEQ s8 a3 s0
+LW a5 s0
+ANDI a5 a5
+SUB a4 a5 s1
+BGE s1 a1 a4
+ADDI a2 a0
+LW s0 s2
+ADDI a7 s2
+BEQ a6 s0 a7
+LW a0 s0
+ADDI a3 zero
+ANDI a0 a0
+SUB a5 a0 s1
+BLT tp a3 a5
+SW
+SW
+BGE s8 a5 zero
+ADDI a5 zero
+BLTU zero a5 a0
+ANDI a5 a0
+ADDI a5 a5
+LW a1 s2
+ADD a5 s2 a5
+LW a3 a5
+SRLI a0 a0 5
+ADDI a4 zero
+SLL a4 a4 a0
+OR a4 a4 a1
+ADDI a1 a5
+SW
+SW
+SW
+SW
+SW
+SRAI a5 a2 2
+ADDI a1 zero
+SLL a1 a1 a5
+BLTU a6 a4 a1
+AND a5 a1 a4
+BNE s0 a5 zero
+SLLI a1 a1 1
+ANDI a2 a2
+AND a5 a1 a4
+ADDI a2 a2
+BNE s4 a5 zero
+SLLI a1 a1 1
+AND a5 a1 a4
+ADDI a2 a2
+BEQ s5 a5 zero
+ADDI a6 zero
+SLLI t1 a2 3
+ADD t1 s2 t1
+ADDI a0 t1
+LW a5 a0
+ADDI t3 a2
+BEQ a6 a0 a5
+LW a4 a5
+ADDI s0 a5
+LW a5 a5
+ANDI a4 a4
+SUB a3 a4 s1
+BLT a6 a6 a3
+BLT t0 a3 zero
+ADD a4 s0 a4
+LW a3 a4
+LW a2 s0
+ADDI a0 s3
+ORI a3 a3
+SW
+SW
+SW
+JAL ra
+ADDI a0 s0
+JAL zero
+ADDI a5 zero
+SW
+ADDI a0 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+LW s8 sp
+LW s9 sp
+ADDI sp sp
+JALR zero ra
+ADDI a3 zero
+ADDI a2 zero
+ADDI a0 zero
+JAL zero
+LW s0 a5
+ADDI a2 a2
+BNE a3 a5 s0
+LW s0 s2
+ADDI a7 s2
+BNE s9 s0 a7
+LW a4 s2
+SRAI a5 a2 2
+ADDI a1 zero
+SLL a1 a1 a5
+BGEU s9 a4 a1
+LW s0 s2
+LW s5 s0
+ANDI s6 s5
+BLTU a6 s6 s1
+SUB a5 s6 s1
+ADDI a4 zero
+BLT s8 a4 a5
+LW s5 gp
+LW a4 gp
+ADDI a5 zero
+ADD s4 s0 s6
+ADD s5 s1 s5
+BEQ s0 a4 a5
+LUI a5
+ADDI a5 a5
+ADD s5 s5 a5
+LUI a5
+AND s5 s5 a5
+ADDI a1 s5
+ADDI a0 s3
+JAL ra
+ADDI a5 zero
+ADDI s7 a0
+BEQ a2 a0 a5
+BLTU tp a0 s4
+ADDI s8 gp
+LW a1 s8
+ADD a1 s5 a1
+SW
+ADDI a5 a1
+BEQ t3 s4 a0
+LW a3 gp
+ADDI a4 zero
+BEQ a2 a3 a4
+SUB s4 s7 s4
+ADD a5 s4 a5
+SW
+ANDI s9 s7
+BEQ tp s9 zero
+LUI a5
+SUB s7 s7 s9
+ADDI a1 a5
+ADDI s7 s7
+SUB a1 a1 s9
+ADD s5 s7 s5
+ADDI a5 a5
+SUB a1 a1 s5
+AND s4 a1 a5
+ADDI a1 s4
+ADDI a0 s3
+JAL ra
+ADDI a5 zero
+BEQ s4 a0 a5
+SUB a0 a0 s7
+ADD s5 a0 s4
+LW a1 s8
+SW
+ORI s5 s5
+ADD a1 s4 a1
+SW
+SW
+BEQ tp s0 s2
+ADDI a3 zero
+BGEU tp a3 s6
+LW a4 s0
+ADDI a5 s6
+ANDI a5 a5
+ANDI a4 a4
+OR a4 a4 a5
+SW
+ADDI a2 zero
+ADD a4 s0 a5
+SW
+SW
+BLTU a6 a3 a5
+LW s5 s7
+ADDI s0 s7
+LW a4 gp
+BGEU s0 a4 a1
+SW
+LW a4 gp
+BGEU a2 a4 a1
+SW
+JAL zero
+ORI a4 s1
+SW
+ADD s1 s0 s1
+SW
+ORI a5 a5
+ADDI a0 s3
+SW
+JAL ra
+ADDI a0 s0
+JAL zero
+LW a3 s0
+LW a2 s0
+JAL zero
+SRLI a5 a0 9
+ADDI a4 zero
+BGEU tp a4 a5
+ADDI a4 zero
+BLTU s4 a4 a5
+ADDI a3 a5
+ADDI a1 a5
+SLLI a3 a3 3
+ADD a3 s2 a3
+LW a5 a3
+ADDI a3 a3
+BEQ a6 a3 a5
+LW a4 a5
+ANDI a4 a4
+BGEU a2 a0 a4
+LW a5 a5
+BNE a7 a3 a5
+LW a3 a5
+LW a4 s2
+SW
+SW
+SW
+SW
+JAL zero
+ADDI a4 zero
+BGEU a2 a4 a5
+ADDI a4 zero
+BLTU s4 a4 a5
+SRLI a5 s1 12
+ADDI a2 a5
+ADDI a0 a5
+SLLI a3 a2 3
+JAL zero
+ADDI t3 t3
+ANDI a5 t3
+ADDI a0 a0
+BEQ t3 a5 zero
+LW a5 a0
+JAL zero
+LW a2 s0
+ORI a1 s1
+SW
+SW
+SW
+ADD s1 s0 s1
+SW
+SW
+ORI a5 a3
+SW
+SW
+SW
+ADD a4 s0 a4
+ADDI a0 s3
+SW
+JAL ra
+ADDI a0 s0
+JAL zero
+SRLI a2 s1 3
+ADDI a5 s1
+JAL zero
+ADD a4 s0 a0
+LW a5 a4
+ADDI a0 s3
+ORI a5 a5
+SW
+JAL ra
+ADDI a0 s0
+JAL zero
+ORI a4 s1
+SW
+ADD s1 s0 s1
+SW
+SW
+ORI a4 a5
+SW
+SW
+SW
+ADD a0 s0 a0
+SW
+ADDI a0 s3
+JAL ra
+ADDI a0 s0
+JAL zero
+SRLI a5 a0 6
+ADDI a3 a5
+ADDI a1 a5
+SLLI a3 a3 3
+JAL zero
+BEQ t3 s0 s2
+LW s0 s2
+LW s5 s0
+ANDI s5 s5
+SUB a5 s5 s1
+BLTU a2 s5 s1
+ADDI a4 zero
+BLT a7 a4 a5
+ADDI a0 s3
+JAL ra
+ADDI a0 zero
+JAL zero
+ADDI a2 a5
+ADDI a0 a5
+SLLI a3 a2 3
+JAL zero
+LW a5 t1
+ADDI a2 a2
+BNE zero a5 t1
+ANDI a5 a2
+ADDI t1 t1
+BNE a3 a5 zero
+LW a4 s2
+XORI a5 a1
+AND a5 a5 a4
+SW
+SLLI a1 a1 1
+BLTU a7 a5 a1
+BEQ a3 a1 zero
+AND a4 a1 a5
+BNE s4 a4 zero
+SLLI a1 a1 1
+AND a4 a1 a5
+ADDI t3 t3
+BEQ s5 a4 zero
+ADDI a2 t3
+JAL zero
+ADDI s5 s5
+JAL zero
+LW a0 s2
+SRAI a1 a1 2
+ADDI a4 zero
+SLL a4 a4 a1
+OR a4 a4 a0
+SW
+JAL zero
+ADD a1 s7 s5
+SUB a1 zero a1
+SLLI a1 a1 -12
+SRLI s4 a1 -12
+ADDI a1 s4
+ADDI a0 s3
+JAL ra
+ADDI a5 zero
+BNE s9 a0 a5
+ADDI s4 zero
+JAL zero
+ADDI a4 zero
+BLTU zero a4 a5
+SRLI a5 a0 12
+ADDI a3 a5
+ADDI a1 a5
+SLLI a3 a3 3
+JAL zero
+ADDI a4 zero
+BLTU zero a4 a5
+SRLI a5 s1 15
+ADDI a2 a5
+ADDI a0 a5
+SLLI a3 a2 3
+JAL zero
+ADDI s8 gp
+LW a5 s8
+ADD a5 s5 a5
+SW
+JAL zero
+SLLI a4 s4 -12
+BNE t0 a4 zero
+LW s0 s2
+ADD s5 s6 s5
+ORI s5 s5
+SW
+JAL zero
+SW
+JAL zero
+ADDI s0 s7
+JAL zero
+ADDI a5 zero
+SW
+JAL zero
+ADDI a4 zero
+BLTU tp a4 a5
+SRLI a5 a0 15
+ADDI a3 a5
+ADDI a1 a5
+SLLI a3 a3 3
+JAL zero
+ADDI a4 zero
+BLTU tp a4 a5
+SRLI a5 s1 -14
+ADDI a2 a5
+ADDI a0 a5
+SLLI a3 a2 3
+JAL zero
+ADDI s9 s9
+ADD s5 s5 s9
+SUB s5 s5 s7
+ADDI s4 zero
+JAL zero
+ADDI a1 s0
+ADDI a0 s3
+JAL ra
+LW s0 s2
+LW a1 s8
+LW s5 s0
+JAL zero
+ADDI a4 zero
+BLTU s0 a4 a5
+SRLI a5 a0 -14
+ADDI a3 a5
+ADDI a1 a5
+SLLI a3 a3 3
+JAL zero
+ADDI a3 zero
+ADDI a2 zero
+ADDI a0 zero
+JAL zero
+ADDI a3 zero
+ADDI a1 zero
+JAL zero
+LW a5 s2
+JAL zero
+ANDI a5 a0
+ANDI a3 a1
+BEQ s4 a5 zero
+ADDI a5 a2
+BEQ t3 a2 zero
+ADDI a2 zero
+JAL zero
+ADDI a0 a0
+ANDI a4 a0
+BEQ t3 a4 zero
+ADDI a5 a5
+BEQ zero a5 a2
+LBU a4 a0
+BNE s1 a4 a3
+JALR zero ra
+ADDI a5 a2
+ADDI a4 zero
+BLTU a2 a4 a5
+BNE a2 a5 zero
+ADDI a0 zero
+JALR zero ra
+ADD a5 a0 a5
+JAL zero
+ADDI a0 a0
+BEQ a3 a5 a0
+LBU a4 a0
+BNE s5 a4 a3
+JALR zero ra
+ANDI a1 a1
+SLLI a7 a1 8
+OR a1 a7 a1
+SLLI a7 a1 -16
+OR a7 a7 a1
+LUI a6
+LUI a1
+ADDI a6 a6
+ADDI a1 a1
+ADDI t1 zero
+LW a4 a0
+XOR a4 a7 a4
+ADD a2 a4 a6
+XORI a4 a4
+AND a4 a2 a4
+AND a4 a4 a1
+BNE t0 a4 zero
+ADDI a5 a5
+ADDI a0 a0
+BLTU t4 t1 a5
+BNE s5 a5 zero
+JAL zero
+XOR a5 a1 a0
+ANDI a5 a5
+ADD a7 a0 a2
+BNE tp a5 zero
+ADDI a5 zero
+BGEU t3 a5 a2
+ANDI a5 a0
+ADDI a4 a0
+BNE a6 a5 zero
+ANDI a2 a7
+ADDI a5 a2
+BLTU s8 a4 a5
+BGEU s8 a4 a2
+ADDI a3 a1
+ADDI a5 a4
+LW a6 a3
+ADDI a5 a5
+ADDI a3 a3
+SW
+BLTU a7 a5 a2
+ADDI a5 a2
+SUB a5 a5 a4
+ANDI a5 a5
+ADDI a5 a5
+ADD a4 a4 a5
+ADD a1 a1 a5
+BLTU a6 a4 a7
+JALR zero ra
+ADDI a4 a0
+BGEU s9 a0 a7
+LBU a5 a1
+ADDI a4 a4
+ADDI a1 a1
+SB
+BLTU a7 a4 a7
+JALR zero ra
+LBU a3 a1
+ADDI a4 a4
+ANDI a5 a4
+SB
+ADDI a1 a1
+BEQ ra a5 zero
+LBU a3 a1
+ADDI a4 a4
+ANDI a5 a4
+SB
+ADDI a1 a1
+BNE s5 a5 zero
+JAL zero
+LW a3 a1
+LW t0 a1
+LW t6 a1
+LW t5 a1
+LW t4 a1
+LW t3 a1
+LW t1 a1
+LW a6 a1
+SW
+LW a3 a1
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI a4 a4
+ADDI a1 a1
+BLTU a7 a4 a5
+JAL zero
+BGEU a2 a1 a0
+ADD a5 a1 a2
+BGEU tp a0 a5
+ADD a4 a0 a2
+BEQ s4 a2 zero
+LBU a3 a5
+ADDI a5 a5
+ADDI a4 a4
+SB
+BNE a7 a1 a5
+JALR zero ra
+ADDI a5 zero
+BLTU a6 a5 a2
+ADDI a5 a0
+ADDI a3 a2
+BEQ s8 a2 zero
+ADDI a3 a3
+ADD a3 a5 a3
+LBU a4 a1
+ADDI a5 a5
+ADDI a1 a1
+SB
+BNE a7 a5 a3
+JALR zero ra
+OR a5 a1 a0
+ANDI a5 a5
+BNE zero a5 zero
+ADDI a7 a2
+ANDI a7 a7
+ADDI a7 a7
+ADD a6 a0 a7
+ADDI a4 a1
+ADDI a5 a0
+LW a3 a4
+ADDI a4 a4
+ADDI a5 a5
+SW
+LW a3 a4
+SW
+LW a3 a4
+SW
+LW a3 a4
+SW
+BNE s9 a6 a5
+ANDI a4 a2
+ADD a1 a1 a7
+ANDI a6 a2
+BEQ t3 a4 zero
+ADDI a4 a1
+ADDI a7 a5
+ADDI t3 zero
+LW t1 a4
+ADDI a4 a4
+SUB a3 a6 a4
+SW
+ADD a3 a1 a3
+ADDI a7 a7
+BLTU s1 t3 a3
+ADDI a4 a6
+ANDI a4 a4
+ADDI a4 a4
+ANDI a2 a2
+ADD a5 a5 a4
+ADD a1 a1 a4
+JAL zero
+JALR zero ra
+ADDI a3 a2
+ADDI a5 a0
+JAL zero
+JALR zero ra
+ADDI a2 a6
+JAL zero
+JALR zero ra
+JALR zero ra
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI s2 a2
+BEQ s0 a1 zero
+ADDI s0 a1
+ADDI s3 a0
+JAL ra
+ADDI s1 s2
+ADDI a5 zero
+BGEU s8 a5 s1
+ANDI s1 s1
+ADDI a4 s1
+BLT s8 s1 zero
+BLTU s4 s1 s2
+LW a5 s0
+ADDI s5 s0
+ANDI s4 a5
+ADD s6 s5 s4
+BGE s8 s4 a4
+ADDI s7 gp
+LW a2 s7
+LW a3 s6
+BEQ zero a2 s6
+ANDI a2 a3
+ADD a2 s6 a2
+LW a2 a2
+ANDI a2 a2
+BNE a2 a2 zero
+ANDI a3 a3
+ADD a2 s4 a3
+BGE a6 a2 a4
+ANDI a5 a5
+BNE s0 a5 zero
+LW s8 s0
+SUB s8 s5 s8
+LW a5 s8
+ANDI a5 a5
+ADD a3 a5 a3
+ADD s7 a3 s4
+BGE s4 s7 a4
+ADD s7 s4 a5
+BGE s0 s7 a4
+ADDI a1 s2
+ADDI a0 s3
+JAL ra
+ADDI s2 a0
+BEQ s8 a0 zero
+LW a5 s0
+ADDI a4 a0
+ANDI a5 a5
+ADD a5 s5 a5
+BEQ a2 a5 a4
+ADDI a2 s4
+ADDI a5 zero
+BLTU a2 a5 a2
+ADDI a4 zero
+LW a3 s0
+BLTU t3 a4 a2
+ADDI a5 a0
+ADDI a4 s0
+SW
+LW a3 a4
+SW
+LW a4 a4
+SW
+ADDI a1 s0
+ADDI a0 s3
+JAL ra
+ADDI a0 s3
+JAL ra
+JAL zero
+ADDI s1 zero
+ADDI a4 zero
+BGEU s5 s1 s2
+ADDI a5 zero
+SW
+ADDI s2 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+LW s8 sp
+ADDI a0 s2
+LW s2 sp
+ADDI sp sp
+JALR zero ra
+LW a5 s6
+LW a4 s6
+ADDI s4 a2
+ADD s6 s5 a2
+SW
+SW
+LW a5 s5
+SUB a4 s4 s1
+ADDI a3 zero
+ANDI a5 a5
+BLTU s8 a3 a4
+OR a5 s4 a5
+SW
+LW a5 s6
+ORI a5 a5
+SW
+ADDI a0 s3
+JAL ra
+ADDI s2 s0
+JAL zero
+ANDI a5 a5
+BNE a3 a5 zero
+LW s8 s0
+SUB s8 s5 s8
+LW a5 s8
+ANDI a5 a5
+JAL zero
+LW s0 sp
+LW ra sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+LW s5 sp
+LW s6 sp
+LW s7 sp
+LW s8 sp
+ADDI a1 a2
+ADDI sp sp
+JAL zero
+OR a5 a5 s1
+SW
+ADD a1 s5 s1
+ORI a4 a4
+SW
+LW a5 s6
+ADDI a1 a1
+ADDI a0 s3
+ORI a5 a5
+SW
+JAL ra
+JAL zero
+ANDI a3 a3
+ADD a2 s4 a3
+ADDI a1 s1
+BGE zero a2 a1
+ANDI a5 a5
+BNE t4 a5 zero
+LW s8 s0
+SUB s8 s5 s8
+LW a5 s8
+ANDI a5 a5
+ADD a3 a5 a3
+ADD s6 a3 s4
+BLT s9 s6 a1
+LW a5 s8
+LW a4 s8
+ADDI a2 s4
+ADDI a3 zero
+SW
+SW
+ADDI s2 s8
+BLTU s8 a3 a2
+ADDI a1 zero
+LW a4 s0
+ADDI a5 s2
+BGEU tp a1 a2
+SW
+LW a4 s0
+ADDI a5 zero
+SW
+BLTU tp a5 a2
+LW a4 s0
+ADDI a5 s8
+ADDI s0 s0
+SW
+LW a4 s0
+SW
+LW a4 s0
+SW
+ADD a4 s8 s1
+SUB a5 s6 s1
+SW
+ORI a5 a5
+SW
+LW a5 s8
+ADDI a0 s3
+ANDI a5 a5
+OR s1 a5 s1
+SW
+JAL ra
+JAL zero
+SW
+LW a3 s0
+ADDI a4 zero
+SW
+BLTU t3 a4 a2
+LW a3 s0
+ADDI a4 s0
+ADDI a5 a0
+JAL zero
+ADD s5 s5 s1
+SUB a5 a2 s1
+SW
+ORI a5 a5
+SW
+LW a5 s0
+ADDI a0 s3
+ADDI s2 s0
+ANDI a5 a5
+OR s1 a5 s1
+SW
+JAL ra
+JAL zero
+LW a5 a0
+ANDI a5 a5
+ADD s4 s4 a5
+ADD s6 s5 s4
+JAL zero
+LW a5 s8
+LW a4 s8
+ADDI a2 s4
+ADDI a3 zero
+SW
+SW
+ADDI s2 s8
+ADD s6 s8 s7
+BLTU tp a3 a2
+ADDI a1 zero
+LW a4 s0
+ADDI a5 s2
+BGEU tp a1 a2
+SW
+LW a4 s0
+ADDI a5 zero
+SW
+BLTU zero a5 a2
+LW a4 s0
+ADDI a5 s8
+ADDI s0 s0
+SW
+LW a4 s0
+ADDI s4 s7
+ADDI s5 s8
+SW
+LW a4 s0
+ADDI s0 s2
+SW
+JAL zero
+ADDI a1 s0
+JAL ra
+JAL zero
+LW a5 s6
+LW a4 s6
+ADDI a2 s4
+ADDI a3 zero
+SW
+SW
+LW a4 s8
+LW a5 s8
+ADDI s2 s8
+ADD s6 s8 s7
+SW
+SW
+BLTU a6 a3 a2
+ADDI a3 zero
+LW a4 s0
+ADDI a5 s2
+BGEU a7 a3 a2
+SW
+LW a4 s0
+ADDI a5 zero
+SW
+LW a4 s0
+BGEU a7 a5 a2
+SW
+LW a4 s0
+ADDI a5 zero
+SW
+LW a4 s0
+BEQ s0 a2 a5
+ADDI a5 s8
+ADDI s0 s0
+JAL zero
+ADDI a1 s0
+ADDI a0 s2
+JAL ra
+ADDI s0 s2
+ADDI s4 s7
+ADDI s5 s8
+JAL zero
+LW a4 s0
+SW
+LW a4 s0
+SW
+LW a3 s0
+BEQ tp a2 a5
+ADDI a4 s0
+ADDI a5 a0
+JAL zero
+LW a5 s0
+SW
+LW a5 s0
+SW
+LW a4 s0
+BNE ra a2 a3
+SW
+LW a4 s0
+ADDI a5 s8
+ADDI s0 s0
+SW
+LW a4 s0
+JAL zero
+SW
+LW a3 s0
+ADDI a4 s0
+ADDI a5 a0
+SW
+LW a3 s0
+JAL zero
+ADDI a1 s0
+ADDI a0 s2
+JAL ra
+JAL zero
+LW a5 s0
+SW
+LW a5 s0
+SW
+LW a4 s0
+BEQ a6 a2 a3
+ADDI a5 s8
+ADDI s0 s0
+JAL zero
+SW
+LW a4 s0
+ADDI a5 s8
+ADDI s0 s0
+SW
+LW a4 s0
+JAL zero
+ADDI sp sp
+SW
+SW
+ADDI s0 a0
+ADDI a0 a1
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+ADDI s0 a1
+LH a1 a1
+SW
+JAL ra
+BLT zero a0 zero
+LW a5 s0
+LW ra sp
+ADD a5 a5 a0
+SW
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+LHU a5 s0
+LUI a4
+ADDI a4 a4
+AND a5 a5 a4
+LW ra sp
+SH
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+ADDI a0 zero
+JALR zero ra
+LH a5 a1
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+ANDI a4 a5
+ADDI s0 a1
+ADDI s1 a0
+LH a1 a1
+ADDI s2 a2
+ADDI s3 a3
+BNE t3 a4 zero
+LUI a4
+ADDI a4 a4
+AND a5 a5 a4
+SH
+LW s0 sp
+LW ra sp
+ADDI a3 s3
+ADDI a2 s2
+LW s3 sp
+LW s2 sp
+ADDI a0 s1
+LW s1 sp
+ADDI sp sp
+JAL zero
+ADDI a3 zero
+ADDI a2 zero
+JAL ra
+LH a5 s0
+LH a1 s0
+JAL zero
+ADDI sp sp
+SW
+ADDI s0 a1
+LH a1 a1
+SW
+JAL ra
+ADDI a5 zero
+BEQ s0 a0 a5
+LHU a5 s0
+LUI a4
+LW ra sp
+OR a5 a5 a4
+SW
+SH
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+LHU a5 s0
+LUI a4
+ADDI a4 a4
+AND a5 a5 a4
+LW ra sp
+SH
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+LH a1 a1
+JAL zero
+ADDI sp sp
+ADDI a4 a1
+SW
+SW
+ADDI a1 a2
+ADDI s0 a0
+ADDI a2 a3
+ADDI a0 a4
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+ADDI sp sp
+SW
+SW
+SW
+ADDI s1 a0
+ADDI s0 a1
+BEQ a2 a5 zero
+LW a4 a5
+BEQ s0 a4 zero
+LH a4 s0
+SLLI a5 a4 -16
+ANDI a3 a4
+SRLI a5 a5 -16
+BEQ a6 a3 zero
+LW a3 s0
+BEQ a6 a3 zero
+ANDI a2 a5
+BEQ a6 a2 zero
+LW a2 s0
+SW
+ADDI a0 zero
+SUB a2 zero a2
+SW
+BEQ s4 a3 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+ANDI a2 a5
+ADDI a1 zero
+BNE s0 a2 zero
+LW a1 s0
+SW
+ADDI a0 zero
+BNE s5 a3 zero
+ANDI a5 a5
+BEQ a3 a5 zero
+ORI a4 a4
+SH
+ADDI a0 zero
+JAL zero
+ADDI a0 a5
+JAL ra
+LH a4 s0
+SLLI a5 a4 -16
+ANDI a3 a4
+SRLI a5 a5 -16
+BNE s9 a3 zero
+ANDI a3 a5
+BEQ tp a3 zero
+ANDI a5 a5
+BNE s0 a5 zero
+LW a3 s0
+ORI a4 a4
+SLLI a5 a4 -16
+SH
+SRLI a5 a5 -16
+BNE s9 a3 zero
+ANDI a2 a5
+ADDI a1 zero
+BEQ a3 a2 a1
+ADDI a1 s0
+ADDI a0 s1
+JAL ra
+LH a4 s0
+LW a3 s0
+SLLI a5 a4 -16
+SRLI a5 a5 -16
+JAL zero
+LW a1 s0
+BEQ t3 a1 zero
+ADDI a5 s0
+BEQ a6 a1 a5
+ADDI a0 s1
+JAL ra
+LH a4 s0
+SW
+LW a3 s0
+ANDI a4 a4
+SW
+SW
+JAL zero
+ADDI a5 zero
+SW
+ORI a4 a4
+SH
+ADDI a0 zero
+JAL zero
+LW a4 gp
+LW a5 a4
+BEQ s8 a5 zero
+LW a4 a5
+ADDI a6 zero
+BLT t3 a6 a4
+SLLI a6 a4 2
+BEQ a2 a0 zero
+ADD t1 a5 a6
+SW
+LW a7 a5
+ADDI a2 zero
+SLL a2 a2 a4
+OR a7 a7 a2
+SW
+SW
+ADDI a3 zero
+BEQ s0 a0 a3
+ADDI a4 a4
+SW
+ADD a5 a5 a6
+SW
+ADDI a0 zero
+JALR zero ra
+ADDI a5 a4
+SW
+JAL zero
+LW a3 a5
+ADDI a4 a4
+SW
+OR a2 a3 a2
+SW
+ADD a5 a5 a6
+SW
+ADDI a0 zero
+JALR zero ra
+ADDI a0 zero
+JALR zero ra
+ADDI sp sp
+SW
+SW
+ADDI s0 a0
+ADDI a0 a1
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+SW
+ADDI s0 a1
+SW
+ADDI s1 a0
+JAL ra
+LW a5 s0
+ADDI s2 a0
+BEQ s4 a5 zero
+LW a1 s0
+ADDI a0 s1
+JALR ra a5
+BLT s0 a0 zero
+LHU a5 s0
+ANDI a5 a5
+BNE a2 a5 zero
+LW a1 s0
+BEQ s8 a1 zero
+ADDI a5 s0
+BEQ a2 a1 a5
+ADDI a0 s1
+JAL ra
+SW
+LW a1 s0
+BEQ a6 a1 zero
+ADDI a0 s1
+JAL ra
+SW
+JAL ra
+SH
+JAL ra
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI a0 s2
+LW s2 sp
+ADDI sp sp
+JALR zero ra
+LHU a5 s0
+ADDI s2 zero
+ANDI a5 a5
+BEQ t4 a5 zero
+LW a1 s0
+ADDI a0 s1
+JAL ra
+JAL zero
+BEQ s0 a1 zero
+ADDI sp sp
+SW
+SW
+ADDI s0 a0
+BEQ a2 a0 zero
+LW a5 a0
+BEQ s4 a5 zero
+LH a5 a1
+BNE s8 a5 zero
+LW ra sp
+LW s0 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI a0 s0
+LW s0 sp
+LW ra sp
+ADDI sp sp
+JAL zero
+SW
+JAL ra
+LW a1 sp
+LH a5 a1
+BEQ s1 a5 zero
+JAL zero
+ADDI a0 zero
+JALR zero ra
+BEQ a2 a0 zero
+ADDI sp sp
+SW
+ADDI s0 a0
+LW a0 gp
+SW
+BEQ a2 a0 zero
+LW a5 a0
+BEQ s4 a5 zero
+LH a5 s0
+BNE s8 a5 zero
+LW ra sp
+LW s0 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI a1 s0
+LW s0 sp
+LW ra sp
+ADDI sp sp
+JAL zero
+SW
+JAL ra
+LH a5 s0
+LW a0 sp
+BEQ s1 a5 zero
+JAL zero
+ADDI a0 zero
+JALR zero ra
+LH a5 a1
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+ANDI a3 a5
+ADDI s0 a1
+ADDI s3 a0
+BNE s8 a3 zero
+LUI a4
+ADDI a4 a4
+LW a3 a1
+OR a5 a5 a4
+SH
+BGE a2 zero a3
+LW a4 s0
+BEQ s8 a4 zero
+SLLI a5 a5 -16
+SRLI a5 a5 -16
+LUI a3
+LW s1 s3
+AND a3 a5 a3
+SW
+LW a1 s0
+BNE a6 a3 zero
+ADDI a3 zero
+ADDI a2 zero
+ADDI a0 s3
+JALR ra a4
+ADDI a5 zero
+BEQ t3 a0 a5
+LHU a5 s0
+LW a4 s0
+LW a1 s0
+ANDI a5 a5
+BEQ t3 a5 zero
+LW a3 s0
+LW a5 s0
+SUB a0 a0 a3
+BEQ a2 a5 zero
+LW a5 s0
+SUB a0 a0 a5
+ADDI a2 a0
+ADDI a3 zero
+ADDI a0 s3
+JALR ra a4
+ADDI a5 zero
+BNE t3 a0 a5
+LW a4 s3
+LH a5 s0
+BEQ s4 a4 zero
+ADDI a3 zero
+BEQ a2 a4 a3
+ADDI a3 zero
+BNE s0 a4 a3
+LW a3 s0
+LUI a4
+ADDI a4 a4
+AND a5 a5 a4
+SH
+SW
+SW
+LW a1 s0
+SW
+BEQ s8 a1 zero
+ADDI a5 s0
+BEQ a2 a1 a5
+ADDI a0 s3
+JAL ra
+SW
+ADDI a0 zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+ADDI sp sp
+JALR zero ra
+LW s2 a1
+BEQ t4 s2 zero
+LW s1 a1
+SLLI a4 a5 -16
+SRLI a4 a4 -16
+ANDI a4 a4
+SW
+SUB s1 s1 s2
+ADDI a5 zero
+BNE s0 a4 zero
+LW a5 a1
+SW
+BLT a6 zero s1
+JAL zero
+ADD s2 s2 a0
+BGE t0 zero s1
+LW a5 s0
+LW a1 s0
+ADDI a3 s1
+ADDI a2 s2
+ADDI a0 s3
+JALR ra a5
+SUB s1 s1 a0
+BLT t4 zero a0
+LHU a5 s0
+ADDI a0 zero
+ORI a5 a5
+LW ra sp
+SH
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+ADDI sp sp
+JALR zero ra
+LW a4 a1
+BLT s5 zero a4
+JAL zero
+LW a0 s0
+JAL zero
+LHU a5 s0
+LUI a4
+ADDI a4 a4
+AND a5 a5 a4
+LW a3 s0
+SLLI a5 a5 -16
+SRAI a5 a5 -16
+SRLI a4 a5 12
+SH
+SW
+SW
+ANDI a5 a4
+BEQ a7 a5 zero
+SW
+JAL zero
+LW a5 s3
+BEQ t0 a5 zero
+ADDI a4 zero
+BEQ a6 a5 a4
+ADDI a4 zero
+BEQ s0 a5 a4
+LHU a5 s0
+ORI a5 a5
+SH
+JAL zero
+LUI a4
+ADDI a4 a4
+LW a3 s0
+AND a5 a5 a4
+JAL zero
+SW
+ADDI a0 zero
+JAL zero
+ADDI sp sp
+SW
+SW
+ADDI s0 a0
+BEQ a2 a0 zero
+LW a5 a0
+BEQ zero a5 zero
+LH a5 a1
+BNE a2 a5 zero
+LW ra sp
+LW s0 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+SW
+JAL ra
+LW a1 sp
+LH a5 a1
+BEQ t4 a5 zero
+ADDI a0 s0
+LW s0 sp
+LW ra sp
+ADDI sp sp
+JAL zero
+BEQ a2 a0 zero
+ADDI sp sp
+SW
+ADDI s0 a0
+LW a0 gp
+SW
+BEQ a2 a0 zero
+LW a5 a0
+BEQ s4 a5 zero
+LH a5 s0
+BNE s8 a5 zero
+LW ra sp
+LW s0 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI a1 s0
+LW s0 sp
+LW ra sp
+ADDI sp sp
+JAL zero
+SW
+JAL ra
+LH a5 s0
+LW a0 sp
+BEQ s1 a5 zero
+JAL zero
+LW a0 gp
+LUI a1
+ADDI a1 a1
+JAL zero
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+ADDI s4 a1
+ADDI s2 a0
+ADDI s3 gp
+JAL ra
+LW a4 s3
+LUI a5
+ADDI s0 a5
+LW s1 a4
+SUB s0 s0 s4
+ANDI s1 s1
+ADD s0 s0 s1
+SRLI s0 s0 12
+ADDI s0 s0
+SLLI s0 s0 12
+BLT t3 s0 a5
+ADDI a1 zero
+ADDI a0 s2
+JAL ra
+LW a5 s3
+ADD a5 a5 s1
+BEQ a6 a0 a5
+ADDI a0 s2
+JAL ra
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+SUB a1 zero s0
+ADDI a0 s2
+JAL ra
+ADDI a5 zero
+BEQ a6 a0 a5
+ADDI a5 gp
+LW a4 a5
+LW a3 s3
+SUB s1 s1 s0
+ORI s1 s1
+SUB s0 a4 s0
+ADDI a0 s2
+SW
+SW
+JAL ra
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI a1 zero
+ADDI a0 s2
+JAL ra
+LW a4 s3
+ADDI a3 zero
+SUB a5 a0 a4
+BGE t4 a3 a5
+LW a3 gp
+ORI a5 a5
+SW
+SUB a0 a0 a3
+SW
+JAL zero
+BEQ s0 a1 zero
+ADDI sp sp
+SW
+SW
+ADDI s0 a1
+ADDI s1 a0
+SW
+JAL ra
+LW a6 s0
+ADDI a4 s0
+ANDI a5 a6
+ADD a2 a4 a5
+ADDI a1 gp
+LW a3 a2
+LW a0 a1
+ANDI a3 a3
+BEQ a2 a0 a2
+SW
+ANDI a6 a6
+ADD a0 a2 a3
+BNE t3 a6 zero
+LW t1 s0
+LW a6 a0
+SUB a4 a4 t1
+LW a7 a4
+ADDI a0 gp
+ADD a5 a5 t1
+ANDI a6 a6
+BEQ t3 a7 a0
+LW t1 a4
+SW
+SW
+BEQ t3 a6 zero
+ORI a3 a5
+SW
+SW
+ADDI a3 zero
+BLTU a2 a3 a5
+ANDI a3 a5
+ADDI a3 a3
+LW a0 a1
+ADD a3 a1 a3
+LW a2 a3
+SRLI a6 a5 5
+ADDI a5 zero
+SLL a5 a5 a6
+OR a5 a5 a0
+ADDI a0 a3
+SW
+SW
+SW
+SW
+SW
+LW s0 sp
+LW ra sp
+ADDI a0 s1
+LW s1 sp
+ADDI sp sp
+JAL zero
+LW a0 a0
+ANDI a0 a0
+BNE s8 a0 zero
+ADD a5 a5 a3
+ADDI a0 gp
+LW a3 a2
+ORI a7 a5
+ADD a6 a4 a5
+BEQ s0 a3 a0
+LW a2 a2
+SW
+SW
+SW
+SW
+JAL zero
+JALR zero ra
+ORI a3 a5
+SW
+SW
+ADDI a3 zero
+BGEU t4 a3 a5
+SRLI a3 a5 9
+ADDI a2 zero
+BLTU a6 a2 a3
+SRLI a3 a5 6
+ADDI a6 a3
+ADDI a2 a3
+SLLI a6 a6 3
+ADD a6 a1 a6
+LW a3 a6
+ADDI a6 a6
+BEQ s0 a6 a3
+LW a2 a3
+ANDI a2 a2
+BGEU a2 a5 a2
+LW a3 a3
+BNE a7 a6 a3
+LW a6 a3
+SW
+SW
+LW s0 sp
+LW ra sp
+SW
+ADDI a0 s1
+LW s1 sp
+SW
+ADDI sp sp
+JAL zero
+BNE tp a6 zero
+LW a1 a2
+LW a2 a2
+ADD a5 a3 a5
+LW s0 sp
+SW
+SW
+ORI a3 a5
+LW ra sp
+SW
+ADDI a0 s1
+ADD a4 a4 a5
+LW s1 sp
+SW
+ADDI sp sp
+JAL zero
+ANDI a6 a6
+ADD a5 a5 a3
+BNE zero a6 zero
+LW a0 s0
+SUB a4 a4 a0
+LW a3 a4
+LW a2 a4
+ADD a5 a5 a0
+SW
+SW
+ORI a2 a5
+LW a3 gp
+SW
+SW
+BLTU a7 a5 a3
+LW a1 gp
+ADDI a0 s1
+JAL ra
+JAL zero
+ADDI a2 zero
+BGEU s0 a2 a3
+ADDI a2 zero
+BLTU s0 a2 a3
+SRLI a3 a5 12
+ADDI a6 a3
+ADDI a2 a3
+SLLI a6 a6 3
+JAL zero
+ADD a5 a5 a3
+JAL zero
+ADDI a6 a3
+ADDI a2 a3
+SLLI a6 a6 3
+JAL zero
+SW
+SW
+SW
+SW
+SW
+SW
+JAL zero
+LW a0 a1
+SRAI a2 a2 2
+ADDI a5 zero
+SLL a2 a5 a2
+OR a2 a2 a0
+SW
+JAL zero
+ADDI a2 zero
+BLTU s8 a2 a3
+SRLI a3 a5 15
+ADDI a6 a3
+ADDI a2 a3
+SLLI a6 a6 3
+JAL zero
+ADDI a2 zero
+BLTU s8 a2 a3
+SRLI a3 a5 -14
+ADDI a6 a3
+ADDI a2 a3
+SLLI a6 a6 3
+JAL zero
+ADDI a6 zero
+ADDI a2 zero
+JAL zero
+ORI a3 a5
+SW
+SW
+JAL zero
+ADDI sp sp
+ADDI a4 a1
+SW
+SW
+ADDI a1 a2
+ADDI s0 a0
+ADDI a2 a3
+ADDI a0 a4
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LHU a5 a1
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+SW
+ANDI a4 a5
+ADDI s0 a1
+BEQ s8 a4 zero
+ADDI a5 a1
+SW
+SW
+ADDI a5 zero
+SW
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+ADDI sp sp
+JALR zero ra
+LH a1 a1
+ADDI s1 a0
+BLT s8 a1 zero
+ADDI a2 sp
+JAL ra
+BLT s0 a0 zero
+LW a5 sp
+LUI s2
+ADDI s4 zero
+AND s2 s2 a5
+LUI a5
+ADD s2 s2 a5
+LUI a5
+SLTIU s2 s2
+ADDI s3 a5
+ADDI a1 s4
+ADDI a0 s1
+JAL ra
+LH a5 s0
+BEQ t3 a0 zero
+LUI a4
+ADDI a4 a4
+SW
+ORI a5 a5
+SH
+SW
+SW
+SW
+BNE a6 s2 zero
+OR a5 a5 s3
+LW ra sp
+SH
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+ADDI sp sp
+JALR zero ra
+LHU a5 s0
+ANDI a5 a5
+ADDI s2 zero
+BEQ a2 a5 zero
+ADDI s4 zero
+ADDI a1 s4
+ADDI a0 s1
+JAL ra
+LH a5 s0
+ADDI s3 zero
+BNE a3 a0 zero
+ANDI a4 a5
+BNE s5 a4 zero
+ANDI a5 a5
+ORI a5 a5
+ADDI a4 s0
+SH
+ADDI a5 zero
+SW
+SW
+SW
+JAL zero
+ADDI s4 zero
+ADDI s3 zero
+JAL zero
+LH a1 s0
+ADDI a0 s1
+JAL ra
+BNE a2 a0 zero
+LH a5 s0
+JAL zero
+LHU a5 s0
+ANDI a5 a5
+ORI a5 a5
+SLLI a5 a5 -16
+SRAI a5 a5 -16
+JAL zero
+ADDI sp sp
+SW
+ADDI s0 a1
+LH a1 a1
+SW
+SW
+SW
+ADDI s1 a2
+ADDI s2 a3
+BLT s4 a1 zero
+ADDI a2 sp
+JAL ra
+BLT s0 a0 zero
+LW a4 sp
+LUI a5
+LW ra sp
+AND a5 a5 a4
+LUI a4
+ADD a5 a5 a4
+LW s0 sp
+SLTIU a5 a5
+SW
+ADDI a5 zero
+SW
+LUI a0
+LW s1 sp
+LW s2 sp
+ADDI a0 a0
+ADDI sp sp
+JALR zero ra
+LH a5 s0
+SW
+ANDI a5 a5
+BEQ s0 a5 zero
+LW ra sp
+LW s0 sp
+ADDI a5 zero
+SW
+LW s2 sp
+LW s1 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+LW ra sp
+LW s0 sp
+ADDI a5 zero
+SW
+LW s2 sp
+LW s1 sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+ADDI a4 a1
+SW
+SW
+ADDI a1 a2
+ADDI s0 a0
+ADDI a2 a3
+ADDI a0 a4
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+LW s2 a1
+SW
+SW
+SW
+SW
+SW
+ADDI s0 a1
+ADDI s1 a0
+BEQ tp s2 zero
+LW s3 s2
+BEQ a6 s3 zero
+LW s4 s3
+BEQ t3 s4 zero
+LW a1 s4
+BEQ s0 a1 zero
+JAL ra
+ADDI a1 s4
+ADDI a0 s1
+JAL ra
+ADDI a1 s3
+ADDI a0 s1
+JAL ra
+ADDI a1 s2
+ADDI a0 s1
+JAL ra
+ADDI a1 s0
+LW s0 sp
+LW ra sp
+LW s2 sp
+LW s3 sp
+LW s4 sp
+ADDI a0 s1
+LW s1 sp
+ADDI sp sp
+JAL zero
+LW a5 gp
+BEQ s4 a5 a0
+LW a1 a0
+ADDI sp sp
+SW
+SW
+SW
+SW
+SW
+ADDI s1 a0
+BEQ zero a1 zero
+ADDI s2 zero
+ADDI s3 zero
+ADD a5 a1 s2
+LW s0 a5
+BEQ t3 s0 zero
+ADDI a1 s0
+LW s0 s0
+ADDI a0 s1
+JAL ra
+BNE a7 s0 zero
+LW a1 s1
+ADDI s2 s2
+BNE s9 s2 s3
+ADDI a0 s1
+JAL ra
+LW a1 s1
+BEQ a2 a1 zero
+ADDI a0 s1
+JAL ra
+LW s0 s1
+BEQ zero s0 zero
+ADDI s2 s1
+BEQ s8 s0 s2
+ADDI a1 s0
+LW s0 s0
+ADDI a0 s1
+JAL ra
+BNE a7 s2 s0
+LW a1 s1
+BEQ a2 a1 zero
+ADDI a0 s1
+JAL ra
+LW a5 s1
+BEQ a2 a5 zero
+LW a5 s1
+ADDI a0 s1
+JALR ra a5
+LW s0 s1
+BEQ s8 s0 zero
+LW a1 s0
+BEQ a2 a1 zero
+ADDI a0 s1
+JAL ra
+ADDI a1 s0
+LW s0 sp
+LW ra sp
+LW s2 sp
+LW s3 sp
+ADDI a0 s1
+LW s1 sp
+ADDI sp sp
+JAL zero
+LW ra sp
+LW s0 sp
+LW s1 sp
+LW s2 sp
+LW s3 sp
+ADDI sp sp
+JALR zero ra
+JALR zero ra
+ADDI sp sp
+ADDI a4 a1
+SW
+SW
+ADDI s0 a0
+ADDI a1 a2
+ADDI a0 a4
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+ADDI s0 a0
+ADDI a0 a1
+SW
+SW
+JAL ra
+ADDI a5 zero
+BEQ s8 a0 a5
+LW ra sp
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+LW a5 gp
+BEQ s1 a5 zero
+LW ra sp
+SW
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+ADDI a1 zero
+ADDI a2 zero
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+ADDI s0 a0
+BLT s8 a0 zero
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+SUB s0 zero s0
+JAL ra
+SW
+ADDI s0 zero
+JAL zero
+ADDI a1 zero
+ADDI a2 zero
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+BLT s0 a0 zero
+JAL zero
+ADDI sp sp
+SW
+ADDI s0 a0
+SW
+SUB s0 zero s0
+JAL ra
+SW
+JAL zero
+ADDI sp sp
+SW
+SW
+ADDI s1 a1
+SW
+ADDI a1 sp
+ADDI a2 zero
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+ADDI s0 a0
+BLT s0 a0 zero
+ADDI a0 s1
+ADDI a1 sp
+JAL ra
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+LW s1 sp
+ADDI sp sp
+JALR zero ra
+SUB s0 zero s0
+JAL ra
+SW
+ADDI s0 zero
+JAL zero
+ADDI sp sp
+ADDI a1 sp
+SW
+JAL ra
+ADDI a5 zero
+BEQ t3 a0 a5
+LW a0 sp
+LW ra sp
+SRLI a0 a0 13
+ANDI a0 a0
+ADDI sp sp
+JALR zero ra
+LW ra sp
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+ADDI s0 a0
+BLT s8 a0 zero
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+SUB s0 zero s0
+JAL ra
+SW
+ADDI s0 zero
+JAL zero
+ADDI sp sp
+SW
+SW
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+ADDI s0 a0
+BLT s8 a0 zero
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+SUB s0 zero s0
+JAL ra
+SW
+ADDI s0 zero
+JAL zero
+LW a5 gp
+ADDI sp sp
+SW
+ADDI a6 a0
+BNE a6 a5 zero
+ADDI a0 zero
+ADDI a1 zero
+ADDI a2 zero
+ADDI a3 zero
+ADDI a4 zero
+ADDI a7 zero
+ECALL
+ADDI a4 zero
+ADDI a5 a0
+BEQ s0 a0 a4
+SW
+ADD a0 a6 a5
+ADDI a1 zero
+ADDI a2 zero
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+LW a5 gp
+ADD a6 a6 a5
+BNE s8 a0 a6
+LW ra sp
+SW
+ADDI a0 a5
+ADDI sp sp
+JALR zero ra
+JAL ra
+LW ra sp
+ADDI a5 zero
+SW
+ADDI a0 zero
+ADDI sp sp
+JALR zero ra
+ADDI sp sp
+SW
+SW
+ADDI a3 zero
+ADDI a4 zero
+ADDI a5 zero
+ADDI a7 zero
+ECALL
+ADDI s0 a0
+BLT s8 a0 zero
+LW ra sp
+ADDI a0 s0
+LW s0 sp
+ADDI sp sp
+JALR zero ra
+SUB s0 zero s0
+JAL ra
+SW
+ADDI s0 zero
+JAL zero
+ADDI sp sp
+LW t2 a1
+LW t0 a1
+LW t6 a1
+LW t5 a1
+LW t4 a1
+LW t3 a1
+LW t1 a1
+LW a6 a1
+LW a7 a1
+LW a2 a1
+SW
+SW
+LW s0 a1
+LW s1 a1
+SW
+LW s2 a1
+LW a3 a1
+LW a4 a1
+LW a5 a1
+SH
+SH
+SW
+SH
+SH
+SH
+SH
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+LW s0 sp
+SW
+SW
+LW s1 sp
+LW s2 sp
+ADDI sp sp
+JALR zero ra
+LW a0 gp
+JALR zero ra
